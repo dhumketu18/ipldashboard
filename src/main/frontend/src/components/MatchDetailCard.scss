@@ -1,0 +1,20 @@
+.MatchDetailCard {
+ display : grid;
+ grid-template-columns : 1fr 1fr;
+ margin-bottom : 20px;
+
+ .MatchCity, .MatchResult, .MatchDate {
+ margin-bottom : 10px
+ }
+
+ .LatestMatch {
+ grid-column : span 1
+ }
+ .AdditionalDetails {
+  text-align: right;
+
+ & > p {
+   margin-bottom : 10px;
+ }
+ }
+}
